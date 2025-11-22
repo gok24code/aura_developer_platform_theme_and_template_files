@@ -1,0 +1,231 @@
+*{
+    background-color: #191919;
+    color: #d5d5d5;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: ease-in-out 0.2s;
+    user-select: none;
+}
+body{
+     overflow: hidden;
+}
+.header{
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+
+}
+
+.sidebar{
+    background-color: #64698757;
+    position: fixed;
+    z-index: 1;
+    text-align: left;
+    padding:2rem;
+    margin-top: -3rem;
+    border-radius: 1rem;
+    width: fit-content;
+    height: 100%;
+}
+.sidebar h2{
+    font-size: 2rem;
+    color: #ABC1E2;
+    background-color: #64698757;
+    border-radius: 1rem;}
+.sidebar li{
+    font-size: 1.5rem;
+    text-align: left;    background-color:#abc1e211;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border-radius: 1rem;
+    margin: 0 0rem 1rem 3rem;
+}
+
+.sidebar li:hover{
+    transition: 0.2s;
+    text-align: center;    background-color:#abc1e221;
+    padding: 0.3rem 0.6rem 0.3rem 0.6rem;
+    border-radius: 1rem;
+    margin: 0 0rem 1rem 3rem;
+}
+
+.sidebar .list{
+    position: fixed;
+    margin-top: 0.15rem;
+    background-color: transparent;
+    width:auto;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+
+}
+.sidebar ul{
+    margin-top: 1.5rem;
+    margin-left: -4rem;
+    list-style: none;
+    background-color: transparent;
+    
+}
+.sidebar li a{
+    text-decoration: none;
+    color: #ABC1E2;
+    margin-top: 1rem;
+    position: relative;
+    text-align: left;
+    border-radius: 1rem;
+}
+.nav-button{
+    background-color: transparent;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+#forget{
+    color: #870505;
+}
+
+#active{
+    background-color: #c4ccd821;  
+}
+#active a{
+    color: #769cd6 ;
+}
+#active:hover{
+    background-color: #abc1e211;
+}
+.nav-button{
+    
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+.inner{
+    background-color: #abc1e211;
+    border-radius:1rem;
+    height: 90%;
+    width: 12.5rem;
+}
+.userheader{
+    background:transparent;
+    margin-top: 74vh;
+    border-width: 0;
+    border-radius: 0.5rem;
+    padding: 0.9rem 3rem;
+    width:max-content;
+}
+
+
+.feed{
+    
+    margin-top: -1rem;
+    margin: auto;
+    background-color: #202020;
+    width: 60%;
+    height: fit-content;
+    border-radius: 1rem;
+    padding: 4rem;
+}
+
+.feed h4{
+        background-color: #abc1e212;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin: 2rem;
+        
+}
+.feed ul{
+    margin-top: -2rem;
+    display: flex;
+    background-color: transparent;
+    padding: 0;
+}
+
+.feedclass{
+    width: 33%;
+    margin-left: 1rem;
+    background-color: #abc1e212;
+    border-radius: 2rem;
+}
+.feedclass h4{
+    font-size: 1rem;
+    position: relative;
+    background :transparent ;
+    margin-top: 1rem;
+    
+}
+.feedheader{
+    background: transparent;
+}
+
+
+.feedclass p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    background-color: transparent;
+    padding-bottom: 10rem;
+    
+}
+.repos{
+    width: 100%;
+    margin: 1rem;
+}
+.social{
+    background-color: #abc1e212;
+    width: 25%;
+    height: 15rem;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 1rem;
+    margin: 0.3rem;
+}
+.socialheader ul{
+    margin-top : 0 ;
+}
+.social_area{
+    margin: 0.3rem;
+    background-color: transparent;
+}
+.social_area h4{
+    background: transparent;
+    padding: 0.5rem ;
+    margin: 0;   
+}
+.social_area h6{
+    margin-top: 10rem;
+    background: transparent;
+    color: #4a4a4a;
+}
+.forget_header{
+    border-radius: 1rem;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+}
+.forget_header ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+.forget{
+    background-color: #abc1e212;
+    width: 25%;
+    height: 15rem;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 1rem;
+    margin: 0.3rem;
+}
+
+.forget_area{
+background: transparent;
+}
+.forget_area button{
+padding: 0.4rem 2rem 0.4rem 2rem;
+border-radius: 1rem;
+}
+.forget_area button a{
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
+.forget_area button:hover{
+    background-color: #abc1e212;
+}
+
+

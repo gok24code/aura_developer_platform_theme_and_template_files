@@ -1,0 +1,119 @@
+*{
+    background-color: #191919;
+    color: #d5d5d5;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+    transition: ease-in-out 0.2s;
+}
+
+
+a{
+    text-decoration: none;
+    padding: 0.2rem;
+}
+
+h1{
+    color: #ABC1E2;
+    margin: auto;
+    background-color: transparent;
+    padding: 1rem 0rem;
+
+}
+h2{
+    background-color: transparent;
+}
+
+h4{
+    background-color: transparent;
+}
+h6{
+    background-color: transparent;
+}
+
+.sidebar{
+    background-color: #64698757;
+    position: fixed;
+    text-align: left;
+    padding: 1rem;
+    margin: -0.8rem;
+    border-radius: 1rem;
+    width: fit-content;
+}
+.sidebar h2{color: #ABC1E2;}
+.sidebar li{
+    text-align: left;    background-color:#abc1e211;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.sidebar li:hover{
+    text-align: left;    background-color:#abc1e221;
+    padding: 0.2rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
+.sidebar .list{
+    position: fixed;
+    margin-top: 0.15rem;
+    background-color: transparent;
+    width: fit-content;
+    width: 12rem;
+}
+.sidebar ul{
+    margin-top: 1.5rem;
+    margin-left: -2.5rem;
+    list-style: none;
+    background-color: transparent;
+    
+}
+.sidebar li a{
+    margin-top: 1rem;
+    position: relative;
+    text-align: left;
+    border-radius: 1rem;
+}
+
+.nav-button{
+    background-color: transparent;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+#active{
+    background-color: #abc1e221;
+}
+
+
+#active:hover{
+    background-color: #abc1e211;
+}
+.nav-button{
+    
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+.inner{
+    margin-top: -1rem;
+    background-color: #abc1e211;
+    border-radius:0.5rem;
+    height: 41rem;
+    width: 12rem;
+}
+
+.userheader{
+    background-color: #abc1e211;
+    margin-top: 82vh;
+    border-width: 0;
+    border-radius: 0.5rem;
+    padding: 0.9rem 3rem;
+    width:max-content;
+}
+#forget {
+    color: #870505;
+}
+
+/*feed*/
